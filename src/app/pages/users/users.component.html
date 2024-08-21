@@ -1,0 +1,5 @@
+<ul class="list-button">
+  <li *ngFor="let user of users">
+   <button routerLink="/users/{{user}}" class="btn btn-primary mt-2">{{ user }}</button>
+  </li>
+</ul>

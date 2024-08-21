@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-study';
+  exibeHome: boolean = true;
+  destruir() {
+    console.log("destruir")
+    this.exibeHome = false;
+  }
 }
